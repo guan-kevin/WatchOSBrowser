@@ -15,6 +15,7 @@
 		0A639C7C276483E800FE46F8 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A639C7B276483E800FE46F8 /* ComplicationController.swift */; };
 		0A639C7E276483E800FE46F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A639C7D276483E800FE46F8 /* Assets.xcassets */; };
 		0A639C81276483E800FE46F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A639C80276483E800FE46F8 /* Preview Assets.xcassets */; };
+		0A639C912764890E00FE46F8 /* ManageFavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A639C902764890E00FE46F8 /* ManageFavoriteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		0A639C7D276483E800FE46F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A639C80276483E800FE46F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0A639C82276483E800FE46F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A639C902764890E00FE46F8 /* ManageFavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageFavoriteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,8 +115,9 @@
 		0A639C76276483E800FE46F8 /* WatchOSBrowser WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				0A639C77276483E800FE46F8 /* ContentView.swift */,
 				0A639C79276483E800FE46F8 /* WatchOSBrowserApp.swift */,
+				0A639C77276483E800FE46F8 /* ContentView.swift */,
+				0A639C902764890E00FE46F8 /* ManageFavoriteView.swift */,
 				0A639C7B276483E800FE46F8 /* ComplicationController.swift */,
 				0A639C7D276483E800FE46F8 /* Assets.xcassets */,
 				0A639C82276483E800FE46F8 /* Info.plist */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A639C912764890E00FE46F8 /* ManageFavoriteView.swift in Sources */,
 				0A639C7A276483E800FE46F8 /* WatchOSBrowserApp.swift in Sources */,
 				0A639C78276483E800FE46F8 /* ContentView.swift in Sources */,
 				0A639C7C276483E800FE46F8 /* ComplicationController.swift in Sources */,
